@@ -11,6 +11,13 @@
 npm init -y
 ```
 
+Open the package.json file and edit the configuration by creating a new property value as follows:
+
+```
+"type" : "module",
+```
+
+This is to ensure that your importation of the module works.
 After this, import the code into any file you want to use it by putting this line:
 
 ```
